@@ -1,7 +1,6 @@
 <template>
   <div>
-    personal resume
-    <el-button type="primary">hah</el-button>
+    <h1>基于element plus封装的常用组件库</h1>
   </div>
 </template>
 
