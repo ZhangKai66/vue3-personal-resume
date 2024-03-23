@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <nav-top></nav-top>
-    <router-view></router-view>
+    <router-view class="main"></router-view>
   </div>
 </template>
 
@@ -11,6 +11,10 @@ import navTop from "../components/navTop/index.vue";
 
 <style scoped lang="scss">
 .content {
-  padding: 20px 40px;
+  padding: 10px 40px;
+  font-family: "LXGWWenKaiGBFusion-Regular_1";
+}
+.main {
+  height: calc(100vh - 78px);
 }
 </style>
